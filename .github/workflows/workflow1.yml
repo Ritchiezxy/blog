@@ -28,7 +28,7 @@ jobs:
         with:
           deploy_key: ${{ secrets.NEW_SECRETES }}
           external_repository: Ritchiezxy/xinyanzhang.github.io # remote branch
-          publish_dir: "./public"
+          publish_dir: "./mysite/public"
           cname: blog.ritchiezxy.cn         
           keep_files: false # remove existing files
           publish_branch: docs  # deploying branch
